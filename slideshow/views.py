@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from django.utils.translation import activate
 from . models import SlideShow
-
+from django.contrib.auth import logout  
 
 def home(request):
     context = {
@@ -11,4 +11,8 @@ def home(request):
 
 def change_lang(request):
     activate(request.GET.get('lang'))
+    return redirect(request.GET.get('next'))
+
+def logout_view(request):
+    logout(request)
     return redirect(request.GET.get('next'))
