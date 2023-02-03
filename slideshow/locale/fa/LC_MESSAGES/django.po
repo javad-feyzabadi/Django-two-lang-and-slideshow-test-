@@ -1264,8 +1264,6 @@ msgid "Owl Carousel"
 msgstr "اول کارسل"
 
 #: slideshow/templates/slideshow/home.html:55
-#, fuzzy
-#| msgid "Owl Carousel"
 msgid "owl.carousel.js"
 msgstr " اول کارسل جی اس"
 
