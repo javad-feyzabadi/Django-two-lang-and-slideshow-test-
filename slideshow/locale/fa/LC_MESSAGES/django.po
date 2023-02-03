@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-03 18:34+0000\n"
+"POT-Creation-Date: 2023-02-03 19:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1258,6 +1258,16 @@ msgstr "اسلایدشو"
 #: slideshow/templates/slideshow/home.html:55
 msgid "Django"
 msgstr "جنگو"
+
+#: slideshow/templates/slideshow/home.html:16
+msgid "Owl Carousel"
+msgstr "اول کارسل"
+
+#: slideshow/templates/slideshow/home.html:55
+#, fuzzy
+#| msgid "Owl Carousel"
+msgid "owl.carousel.js"
+msgstr " اول کارسل جی اس"
 
 #: slideshow/templates/slideshow/home.html:60
 msgid "EN"
